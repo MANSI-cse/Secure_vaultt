@@ -1,51 +1,53 @@
-
-
 <div align="center">
 
-# 🔐 SecureVault
-### AI-Powered Cybersecurity Platform
+# 🔐 SecureVault  
+### ⚡ AI-Powered Cybersecurity & Secure Communication System
 
-[![React](https://img.shields.io/badge/React_18-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
-[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
-[![Python](https://img.shields.io/badge/Python_3-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org/)
-[![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)](https://mongodb.com/)
-[![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white)](https://socket.io/)
-
-> A next-generation cybersecurity platform combining encryption, AI steganography, blockchain logging, and secure communication into a unified intelligent system.
-
-**Built by:** Mansi Kaushik | B.Tech CSE | Cybersecurity & Full Stack Developer
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=200&section=header&text=SecureVault&fontSize=40&fontColor=ffffff" />
 
 </div>
 
 ---
 
-# 📌 Project Overview
+# 👩‍💻 About the Project
 
-SecureVault is an advanced cybersecurity ecosystem designed to demonstrate real-world implementation of:
+SecureVault is a **next-generation cybersecurity platform** that simulates real-world secure systems using:
 
-- Cryptography (AES-256 encryption)
-- Steganography (Image + Audio + DNA encoding)
-- Blockchain-based audit logging
-- AI-powered security processing
-- Secure real-time communication
+- Advanced Encryption (AES-256)
+- AI-based Steganography
+- Blockchain-based Audit Logging
+- Secure Real-time Communication
+- Intelligent Authentication System
 
-It simulates how modern secure systems protect data at multiple layers.
+It demonstrates how modern systems secure **data, communication, and identity** in a unified architecture.
 
 ---
 
-# 🧠 System Architecture (VISUAL)
+# 🧠 Key Features
+
+✨ AES-256 Encryption & Decryption  
+🕵️ Image, Audio & DNA Steganography  
+⛓️ Blockchain-based logging system  
+🤖 AI Security Engine (Python Flask)  
+💬 Real-time Secure Chat (Socket.io)  
+🔐 JWT + OTP Authentication  
+🗄️ MongoDB Secure Storage  
+
+---
+
+# 🏗️ System Architecture
 
 ```mermaid
 graph TD
 
-A[Frontend - React UI] --> B[Backend - Node.js + Express]
-B --> C[Authentication System - JWT + OTP]
+A[React Frontend] --> B[Node.js Backend]
+B --> C[Authentication Layer - JWT + OTP]
 B --> D[AES-256 Encryption Engine]
 B --> E[Steganography Module]
-B --> F[Blockchain Audit Logs]
-B --> G[Socket.io Real-time Chat]
+B --> F[Blockchain Logging System]
+B --> G[Socket.io Secure Chat]
 
-B --> H[AI Engine - Python Flask]
+B --> H[AI Engine - Flask Python]
 H --> H1[DNA Cryptography]
 H --> H2[Audio Steganography]
 H --> H3[Ultrasonic Encoding]
