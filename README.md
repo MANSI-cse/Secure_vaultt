@@ -1,4 +1,5 @@
 
+
 <div align="center">
 
 # 🔐 SecureVault
@@ -10,27 +11,43 @@
 [![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)](https://mongodb.com/)
 [![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white)](https://socket.io/)
 
-> A next-generation cybersecurity ecosystem integrating encryption, AI steganography, blockchain logging, and secure communication into one unified platform.
+> A next-generation cybersecurity platform combining encryption, AI steganography, blockchain logging, and secure communication into a unified intelligent system.
+
+**Built by:** Mansi Kaushik | B.Tech CSE | Cybersecurity & Full Stack Developer
 
 </div>
 
 ---
 
-# 📌 System Architecture (VISUAL FLOW)
+# 📌 Project Overview
+
+SecureVault is an advanced cybersecurity ecosystem designed to demonstrate real-world implementation of:
+
+- Cryptography (AES-256 encryption)
+- Steganography (Image + Audio + DNA encoding)
+- Blockchain-based audit logging
+- AI-powered security processing
+- Secure real-time communication
+
+It simulates how modern secure systems protect data at multiple layers.
+
+---
+
+# 🧠 System Architecture (VISUAL)
 
 ```mermaid
 graph TD
 
-A[User Interface - React Frontend] --> B[Backend API - Node.js + Express]
+A[Frontend - React UI] --> B[Backend - Node.js + Express]
 B --> C[Authentication System - JWT + OTP]
 B --> D[AES-256 Encryption Engine]
-B --> E[Steganography Module - LSB Encoding]
-B --> F[Blockchain Audit Logger - SHA-256 Chain]
+B --> E[Steganography Module]
+B --> F[Blockchain Audit Logs]
 B --> G[Socket.io Real-time Chat]
 
 B --> H[AI Engine - Python Flask]
 H --> H1[DNA Cryptography]
 H --> H2[Audio Steganography]
-H --> H3[Ultrasonic Embedding]
+H --> H3[Ultrasonic Encoding]
 
 B --> I[MongoDB Database]
