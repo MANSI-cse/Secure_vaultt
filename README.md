@@ -4,7 +4,7 @@
 # 🔐 SecureVault  
 ### ⚡ AI-Powered Cybersecurity & Secure Communication System
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=200&section=header&text=SecureVault&fontSize=40&fontColor=ffffff" />
+<img src="pics/blob/main/Screenshot%20(94).png>
 
 </div>
 
