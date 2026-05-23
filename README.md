@@ -1,252 +1,80 @@
 
 <div align="center">
 
-# 🔐 SecureVault  
+# 🔐 SecureVault
 ### ⚡ AI-Powered Cybersecurity & Secure Communication System
 
-<img src="pics/blob/main/Screenshot%20(94).png>
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat&logo=node.js&logoColor=white)](https://nodejs.org/)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)](https://python.org/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white)](https://mongodb.com/)
 
 </div>
 
 ---
 
-# 👩‍💻 About the Project
+## 👩‍💻 About the Project
 
-SecureVault is a **next-generation cybersecurity platform** that combines modern security technologies into one intelligent system.
+**SecureVault** is a next-generation cybersecurity platform that combines modern security technologies into one intelligent system.
 
 The platform demonstrates real-world implementations of:
 
-- AES-256 Military Grade Encryption
-- AI-based Steganography
-- Blockchain Audit Logging
-- Secure Real-Time Communication
-- JWT + OTP Authentication
-- DNA Cryptography & Audio Encoding
-
-It is designed as a futuristic cyber defense dashboard capable of protecting sensitive communication and monitoring secure operations.
+- 🔒 AES-256 Military Grade Encryption
+- 🕵️ AI-based Steganography
+- ⛓️ Blockchain Audit Logging
+- 💬 Secure Real-Time Communication
+- 🔑 JWT + OTP Authentication
+- 🧬 DNA Cryptography & Audio Encoding
 
 ---
 
-# 🧠 Key Features
+## 🧠 Key Features
 
-✨ AES-256 Encryption & Decryption  
-🕵️ Image, Audio & DNA Steganography  
-⛓️ Blockchain-based Logging System  
-🤖 AI Security Engine (Python Flask)  
-💬 Real-time Secure Chat (Socket.io)  
-🔐 JWT + OTP Authentication  
-🗄️ MongoDB Secure Storage  
-
----
-
-# 📸 Project Screenshots
+| Feature | Description |
+|--------|-------------|
+| 🔐 AES-256 Encryption | Military-grade AES-256-CBC encryption & decryption with QR transfer |
+| 🕵️ Steganography | Image, Audio & DNA-based covert message hiding |
+| ⛓️ Blockchain Logging | Immutable SHA-256 blockchain audit trail |
+| 🤖 AI Security Engine | Python Flask-powered AI for advanced steganography |
+| 💬 Secure Chat | Real-time encrypted communication via Socket.io |
+| 🔑 Auth System | JWT + OTP two-factor authentication |
+| 🗄️ Secure Storage | MongoDB encrypted data storage |
 
 ---
 
-## 🖥️ Command Center Dashboard
+## 📸 Project Screenshots
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/MANSI-cse/Secure-Vault/main/docs/screenshots/dashboard.png" width="100%">
-</p>
-
-### Features
-- Threat analytics visualization
-- Intrusion detection traffic graph
-- Security monitoring dashboard
-- Risk-level analysis system
+### 🖥️ Command Center Dashboard
+![Dashboard](docs/screenshots/dashboard.jpeg)
+> Live threat analytics, intrusion detection traffic graph, risk-level visualization, and system status.
 
 ---
 
-## 🔐 AES-256 Encryption & Decryption
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/MANSI-cse/Secure-Vault/main/docs/screenshots/encryption.png" width="100%">
-</p>
-
-### Features
-- AES-256-CBC encryption engine
-- Real-time encryption/decryption
-- QR code secure transfer
-- Military-grade cryptography
+### 🔐 AES-256 Encryption & Decryption
+![Encryption](docs/screenshots/encryption.jpeg)
+> Real-time AES-256-CBC encryption and decryption with cipher text display and QR code generation.
 
 ---
 
-## 🤖 Advanced AI Steganography Engine
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/MANSI-cse/Secure-Vault/main/docs/screenshots/ai-stego.png" width="100%">
-</p>
-
-### Features
-- DNA Multiplexing Logic
-- Ultrasonic Encoding
-- Audio-based Steganography
-- AI-powered secure embedding
+### 🖼️ Image Steganography Module
+![Steganography](docs/screenshots/steganography.jpeg)
+> LSB-based covert message embedding into images with extract-and-verify functionality.
 
 ---
 
-## 🖼️ Image Steganography Module
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/MANSI-cse/Secure-Vault/main/docs/screenshots/image-stego.png" width="100%">
-</p>
-
-### Features
-- LSB Image Encoding
-- Hidden message extraction
-- Secure image processing
-- Covert communication system
+### ⛓️ Blockchain Audit Logs
+![Blockchain Logs](docs/screenshots/blockchain-logs.jpeg)
+> Every action is logged immutably with SHA-256 block hashes, timestamps, and user/IP tracking.
 
 ---
 
-# 🏗️ System Architecture
+### 💬 Encrypted Transmission Chat
+![Secure Chat](docs/screenshots/secure-chat.jpeg)
+> Real-time end-to-end encrypted room-based chat. All transmissions secured against unauthorized access.
+
+---
+
+## 🏗️ System Architecture
 
 ```mermaid
-graph TD
-
-A[React Frontend] --> B[Node.js Backend]
-
-B --> C[Authentication Layer - JWT + OTP]
-B --> D[AES-256 Encryption Engine]
-B --> E[Steganography Module]
-B --> F[Blockchain Logging System]
-B --> G[Socket.io Secure Chat]
-
-B --> H[AI Engine - Flask Python]
-
-H --> H1[DNA Cryptography]
-H --> H2[Audio Steganography]
-H --> H3[Ultrasonic Encoding]
-
-B --> I[MongoDB Database]
-```
-
----
-
-# ⚙️ Technology Stack
-
-| Layer | Technologies |
-|------|--------------|
-| Frontend | React.js, Vite, Axios |
-| Backend | Node.js, Express.js |
-| Database | MongoDB |
-| AI Engine | Python Flask |
-| Authentication | JWT + OTP |
-| Encryption | AES-256-CBC |
-| Chat System | Socket.io |
-| Image Processing | Jimp |
-| Logging | SHA-256 Blockchain |
-
----
-
-# 🔒 Security Features
-
-✅ AES-256-CBC Encryption  
-✅ JWT Authentication  
-✅ OTP Verification System  
-✅ Blockchain Audit Logging  
-✅ Account Lockout Protection  
-✅ Encrypted Communication  
-✅ Secure Session Management  
-
----
-
-# 📂 Project Structure
-
-```bash
-Secure-Vault/
-│
-├── frontend/
-├── backend/
-├── ai_engine/
-├── docs/
-│   └── screenshots/
-│       ├── dashboard.png
-│       ├── encryption.png
-│       ├── ai-stego.png
-│       └── image-stego.png
-│
-├── README.md
-└── start.bat
-```
-
----
-
-# 🚀 Installation
-
-## Clone Repository
-
-```bash
-git clone https://github.com/MANSI-cse/Secure-Vault.git
-cd Secure-Vault
-```
-
----
-
-## Backend Setup
-
-```bash
-cd backend
-npm install
-npm run dev
-```
-
----
-
-## Frontend Setup
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
----
-
-## AI Engine Setup
-
-```bash
-cd ai_engine
-pip install -r requirements.txt
-python app.py
-```
-
----
-
-# 📜 MIT License
-
-```text
-MIT License
-
-Copyright (c) 2026 Mansi Kaushik
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
-```
-
----
-
-# 👩‍💻 Developer
-
-## Mansi Kaushik
-B.Tech CSE | Cybersecurity & Full Stack Developer
-
-🔗 GitHub: https://github.com/MANSI-cse
-
-💼 LinkedIn: https://linkedin.com/in/mansi-kaushik-88862328b
-
----
-
-<div align="center">
-
-⭐ Star this repository if you like the project!
-
-Built with 💚 using React, Node.js, Python & Cybersecurity Concepts.
-
-</div>
